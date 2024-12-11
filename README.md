@@ -3,7 +3,7 @@
 ### Database: ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) 
 
 # About Project:
-The project uses Java and Firebase. Firebase services utilized include Authentication for user verification and Realtime Database for data storage.</br>
+The project uses Java and Firebase. Firebase services utilized include: Authentication for user verification and Realtime Database for data storage.</br>
 The system supports two roles: User and Admin.</br>
 
 - User functionalities include: register, log in, log out, change password, search products, manage shopping cart, and review products.</br>
