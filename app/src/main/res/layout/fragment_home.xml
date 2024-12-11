@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:visibility="gone"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="@dimen/define_dimen_20"
+        android:layout_marginStart="@dimen/define_dimen_10"
+        android:layout_marginEnd="@dimen/define_dimen_10">
+
+        <EditText
+            android:id="@+id/edt_search_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_shape_border_red_corner_30"
+            android:hint="@string/hint_search_name"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:padding="@dimen/define_dimen_10"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/text_size_xsmall"
+            tools:ignore="Autofill" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/define_dimen_30"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/img_search"
+            android:background="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/define_dimen_5"
+            android:padding="@dimen/define_dimen_5"
+            android:src="@drawable/ic_search_red"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/define_dimen_20">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.viewpager2.widget.ViewPager2
+                        android:id="@+id/viewpager_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <me.relex.circleindicator.CircleIndicator3
+                        android:id="@+id/indicator_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/define_dimen_30"
+                        android:layout_gravity="center"
+                        app:ci_drawable="@drawable/bg_indicatior_selected"
+                        app:ci_drawable_unselected="@drawable/bg_indicatior_unselected" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/define_dimen_10"
+                    android:layout_marginTop="@dimen/define_dimen_10"
+                    android:layout_marginBottom="@dimen/define_dimen_5"
+                    android:text="@string/food_suggest"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/text_size_normal"
+                    android:textStyle="bold" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcv_food"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:nestedScrollingEnabled="false"
+                    android:focusable="false"
+                    android:layout_marginStart="@dimen/define_dimen_10"
+                    android:layout_marginBottom="@dimen/define_dimen_10" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

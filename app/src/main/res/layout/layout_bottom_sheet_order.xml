@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    tools:viewBindingIgnore="true"
+    android:orientation="vertical"
+    android:padding="@dimen/define_dimen_10"
+    tools:ignore="Autofill,LabelFor" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/define_dimen_6"
+            android:layout_toStartOf="@+id/tv_price_order"
+            android:text="@string/order_detail"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_xnormal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_price_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="@string/label_price_0"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/text_size_normal"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_foods_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/define_dimen_5"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/define_dimen_16"
+        android:text="@string/payment_method"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/payment_method_cash"
+        android:background="@drawable/bg_white_shape_border_gray"
+        android:padding="@dimen/define_dimen_12"
+        android:layout_marginTop="@dimen/define_dimen_5"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/define_dimen_16"
+        android:text="@string/feedback_name"
+        android:textSize="@dimen/text_size_small" />
+
+    <EditText
+        android:id="@+id/edt_name_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/define_dimen_5"
+        android:padding="@dimen/define_dimen_12"
+        android:background="@drawable/bg_white_shape_border_gray"
+        android:imeOptions="actionNext"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/define_dimen_16"
+        android:text="@string/feedback_phone"
+        android:textSize="@dimen/text_size_small" />
+
+    <EditText
+        android:id="@+id/edt_phone_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:inputType="phone"
+        android:background="@drawable/bg_white_shape_border_gray"
+        android:layout_marginTop="@dimen/define_dimen_5"
+        android:padding="@dimen/define_dimen_12"
+        android:imeOptions="actionNext"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/define_dimen_16"
+        android:text="@string/address_delivery"
+        android:textSize="@dimen/text_size_small" />
+
+    <EditText
+        android:id="@+id/edt_address_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:background="@drawable/bg_white_shape_border_gray"
+        android:padding="@dimen/define_dimen_12"
+        android:layout_marginTop="@dimen/define_dimen_5"
+        android:imeOptions="actionDone"
+        android:textSize="@dimen/text_size_small" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/define_dimen_20"
+        android:layout_marginBottom="@dimen/define_dimen_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancel_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/define_dimen_10"
+            android:layout_weight="1"
+            android:background="@drawable/bg_gray_shape_corner_6"
+            android:gravity="center"
+            android:padding="@dimen/define_dimen_10"
+            android:paddingStart="@dimen/define_dimen_16"
+            android:paddingEnd="@dimen/define_dimen_16"
+            android:text="@string/cancel"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/tv_create_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_green_shape_corner_6"
+            android:gravity="center"
+            android:padding="@dimen/define_dimen_10"
+            android:text="@string/order_cart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">#FC5353</item>
+    </style>
+
+    <declare-styleable name="AspectRatioView">
+        <attr name="aspectRatioEnabled" format="boolean" />
+        <attr name="dominantMeasurement" format="enum">
+            <enum name="Width" value="0" />
+            <enum name="Height" value="1" />
+        </attr>
+        <attr name="aspectRatio" format="float" />
+
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="roundedCorners">
+            <flag name="topLeft" value="1" />
+            <flag name="topRight" value="2" />
+            <flag name="bottomRight" value="4" />
+            <flag name="bottomLeft" value="8" />
+            <flag name="all" value="15" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ScrollControllableViewpager">
+        <attr name="scrollable" format="boolean" />
+    </declare-styleable>
+
+    <attr name="itemActiveColor" format="color" />
+    <attr name="itemInactiveColor" format="color" />
+    <attr name="titleColorActive" format="color" />
+    <attr name="titleColorInactive" format="color" />
+
+    <declare-styleable name="PropertyBottomNavigation">
+        <attr name="itemActiveColor"/>
+        <attr name="itemInactiveColor"/>
+        <attr name="titleColorActive"/>
+        <attr name="titleColorInactive"/>
+    </declare-styleable>
+
+</resources>
