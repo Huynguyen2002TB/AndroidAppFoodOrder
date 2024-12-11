@@ -12,7 +12,7 @@ The system supports two roles: User and Admin.</br>
 
 # Preview: 
 ### User:</br>
-![Mô tả GIF](demo/usergift.gif)
+![Mô tả GIF](demo/usergif.gif)
 
 ### Admin:</br>
 ![Mô tả GIF](demo/admin.gif)
