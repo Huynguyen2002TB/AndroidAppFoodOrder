@@ -1,1 +1,14 @@
-/build
+# Loại bỏ thư mục build và file tạm
+/build/
+.gradle/
+.idea/
+
+# File cấu hình cục bộ
+local.properties
+
+# Loại bỏ các file hệ điều hành
+.DS_Store
+Thumbs.db
+
+# File đầu ra APK
+*.apk
