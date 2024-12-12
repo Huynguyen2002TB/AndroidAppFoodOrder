@@ -12,7 +12,26 @@ The system supports two roles: User and Admin.</br>
 
 # Preview: 
 ### User:</br>
-![Mô tả GIF](demo/usergif.gif)
+![Mô tả GIF](demo/usergif.gif)</br>
+
+![Mô tả ảnh](demo/register.png)
+![Mô tả ảnh](demo/forgotpass.png)
+![Mô tả ảnh](demo/login.png)
+![Mô tả ảnh](demo/mainuser.png)
+![Mô tả ảnh](demo/feedback.png)
+![Mô tả ảnh](demo/fooddetail.png)
+![Mô tả ảnh](demo/cart.png)
+![Mô tả ảnh](demo/orderhistory.png)
+![Mô tả ảnh](demo/useraccount.png)
+![Mô tả ảnh](demo/changepass.png)
+![Mô tả ảnh](demo/example.png)
+
+
+
+
+
+
+
 
 ### Admin:</br>
 ![Mô tả GIF](demo/admin.gif)
