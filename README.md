@@ -39,7 +39,7 @@ The system supports two roles: User and Admin.</br>
   <tr>
     <td><img src="demo/adminmain.png" alt="Mô tả ảnh" width="200" /></td>
     <td><img src="demo/adminfeedback.png" alt="Mô tả ảnh" width="200" /></td>
-    <td><img src="adminorder.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/adminorder.png" alt="Mô tả ảnh" width="200" /></td>
   </tr>
   <tr>
     <td><img src="demo/revenue.png" alt="Mô tả ảnh" width="200" /></td>
