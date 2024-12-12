@@ -12,8 +12,6 @@ The system supports two roles: User and Admin.</br>
 
 # Preview: 
 ### User:</br>
-![Mô tả GIF](demo/usergif.gif)</br>
-
 <table>
   <tr>
     <td><img src="demo/register.png" alt="Mô tả ảnh" width="200" /></td>
@@ -28,12 +26,11 @@ The system supports two roles: User and Admin.</br>
   <tr>
     <td><img src="demo/cart.png" alt="Mô tả ảnh" width="200" /></td>
     <td><img src="demo/orderhistory.png" alt="Mô tả ảnh" width="200" /></td>
-    <td><img src="demo/useraccount.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/order.png" alt="Mô tả ảnh" width="200" /></td>
   </tr>
   <tr>
+    <td><img src="demo/useraccount.png" alt="Mô tả ảnh" width="200" /></td>
     <td><img src="demo/changepass.png" alt="Mô tả ảnh" width="200" /></td>
-    <td><img src="demo/example.png" alt="Mô tả ảnh" width="200" /></td>
-    <td></td>
   </tr>
 </table>
 
