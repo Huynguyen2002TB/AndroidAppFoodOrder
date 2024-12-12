@@ -59,5 +59,6 @@ The system supports two roles: User and Admin.</br>
 #### Delete Food:</br>
 ![Mô tả GIF](demo/delete.gif)
 
-
+#### Database:</br>
+![Mô tả GIF](demo/database.gif)
 
