@@ -51,6 +51,8 @@ The system supports two roles: User and Admin.</br>
 </table>
 
 #### Add Food:</br>
+Using Glide is a popular library in Android to efficiently load and display images. It helps load images from a URL, internal storage, or other sources and display them in an ImageView.
+
 ![Mô tả GIF](demo/add.gif)
 
 #### Edit Food:</br>
