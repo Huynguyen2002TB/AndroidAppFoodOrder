@@ -11,7 +11,6 @@ The system supports two roles: User and Admin.</br>
 - Admin functionalities include: log in, log out, change password, manage orders, view reviews, manage products, and view report.
 
 # Preview: 
-### User:</br>
 <table>
   <tr>
     <td><img src="demo/register.png" alt="Mô tả ảnh" width="200" /></td>
@@ -34,7 +33,6 @@ The system supports two roles: User and Admin.</br>
   </tr>
 </table>
 
-### Admin:</br>
 <table>
   <tr>
     <td><img src="demo/adminmain.png" alt="Mô tả ảnh" width="200" /></td>
