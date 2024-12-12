@@ -14,17 +14,32 @@ The system supports two roles: User and Admin.</br>
 ### User:</br>
 ![Mô tả GIF](demo/usergif.gif)</br>
 
-![Mô tả ảnh](demo/register.png)
-![Mô tả ảnh](demo/forgotpass.png)
-![Mô tả ảnh](demo/login.png)
-![Mô tả ảnh](demo/mainuser.png)
-![Mô tả ảnh](demo/feedback.png)
-![Mô tả ảnh](demo/fooddetail.png)
-![Mô tả ảnh](demo/cart.png)
-![Mô tả ảnh](demo/orderhistory.png)
-![Mô tả ảnh](demo/useraccount.png)
-![Mô tả ảnh](demo/changepass.png)
-![Mô tả ảnh](demo/example.png)
+<table>
+  <tr>
+    <td><img src="demo/register.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/forgotpass.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/login.png" alt="Mô tả ảnh" width="200" /></td>
+  </tr>
+  <tr>
+    <td><img src="demo/mainuser.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/feedback.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/fooddetail.png" alt="Mô tả ảnh" width="200" /></td>
+  </tr>
+  <tr>
+    <td><img src="demo/cart.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/orderhistory.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/useraccount.png" alt="Mô tả ảnh" width="200" /></td>
+  </tr>
+  <tr>
+    <td><img src="demo/changepass.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/example.png" alt="Mô tả ảnh" width="200" /></td>
+    <td></td>
+  </tr>
+</table>
+
+
+
+
 
 
 
