@@ -34,19 +34,23 @@ The system supports two roles: User and Admin.</br>
   </tr>
 </table>
 
-
-
-
-
-
-
-
-
-
-
-
 ### Admin:</br>
-![Mô tả GIF](demo/admin.gif)
+<table>
+  <tr>
+    <td><img src="demo/adminmain.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/adminfeedback.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="adminorder.png" alt="Mô tả ảnh" width="200" /></td>
+  </tr>
+  <tr>
+    <td><img src="demo/revenue.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/revenue1.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/add.png" alt="Mô tả ảnh" width="200" /></td>
+  </tr>
+  <tr>
+    <td><img src="demo/edit.png" alt="Mô tả ảnh" width="200" /></td>
+    <td><img src="demo/delete.png" alt="Mô tả ảnh" width="200" /></td>
+  </tr>
+</table>
 
 #### Add Food:</br>
 ![Mô tả GIF](demo/add.gif)
