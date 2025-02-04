@@ -1,9 +1,11 @@
 # Technology used:
  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
  ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) 
+Libraries & Frameworks: Retrofit - Efficient API request handling,Glide - Optimized image loading from URLs.
 
 # About Project:
 The project uses Java and Firebase. Firebase services utilized include: Authentication for user verification and Realtime Database for data storage.</br>
+Libraries & Frameworks: Retrofit - Efficient API request handling,Glide - Optimized image loading from URLs.</br>
 The system supports two roles: User and Admin.</br>
 
 - User functionalities include: register, log in, log out, change password, search products, manage shopping cart, and review products.</br>
